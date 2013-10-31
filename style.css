@@ -14,4 +14,5 @@
 
 #board{
     display: table;
+    float: left;
 }
