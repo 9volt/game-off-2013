@@ -1,14 +1,17 @@
 .square{
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
+    border: 1px solid black;
     padding: 15px;
     display: table-cell;
 }
+
+.square:hover {
+    background: lightgrey;
+}
+
 .row {
     display: table-row;
-    
 }
+
 #board{
     display: table;
 }
